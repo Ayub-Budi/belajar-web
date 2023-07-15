@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Pertama</title>
+    <link rel="stylesheet" href="ayub.css">
+    <script src="ayub.js"></script>
 </head>
 <body>
     <h1>Data Mahasiswa</h1>
     <div>
-        <label for="name">Nama :</label>
+        <label for="name">Nama :</label><br>
         <input type="text" id="name" name="name"><br><br>
     </div>
     <div>
-        <label for="nim">NIM :</label>
+        <label for="nim">NIM :</label><br>
         <input type="text" id="nim" name="nim"><br><br>
     </div>
     <div>
-        <label for="prodi">Prodi :</label>
+        <label for="prodi">Prodi :</label><br>
         <input type="text" id="prodi" name="prodi"><br><br>
     </div>
-
+    <div>
+        <button onclick="kirim()">submit</button>
+    </div>
+    <div id="tampil"></div>
 </body>
 </html>
